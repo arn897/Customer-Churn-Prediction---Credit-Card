@@ -60,7 +60,6 @@ def predict_datapoint():
         return str(prediction)  # ✅ Convert to string for proper HTML response
 
 
-if __name__ == "__main__":
-    # ✅ Use Render's required port (Render sets PORT as an environment variable)
-    port = int(os.environ.get("PORT", 8080))
-    app.run(host="0.0.0.0", port=port)
+if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 10000))
+    app.run(host='0.0.0.0', port=port)
