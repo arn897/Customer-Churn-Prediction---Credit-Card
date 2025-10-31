@@ -1,6 +1,8 @@
 # Credit Card Churn Prediction
 
 <img src="images/churn.jpg">
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render-blue?style=for-the-badge&logo=render)](https://customer-churn-prediction-credit-card.onrender.com)
+
 
 # 1. Description
 - This is an end-to-end machine learning project that utilizes LightGBM to predict customer's probability of churning in a bank's credit card service. It involves supervised learning (using a labeled training set) for classification, where the target is 1 if the customer attrited, else 0.
@@ -114,10 +116,6 @@ dissatisfaction? Also, when a client makes more than 5 contacts in a year, he wi
 # 8. Web app and next steps
 - Once I built a model that is able to accurately predict the probability of a customer to churn, I developed a Flask API web app such that the bank can get a customer's probability of churning by giving the input features information, solving the business problem. For the next steps, I will be focused on deploying this app in a cloud like AWS (I already defined a file containing Elastic Beanstalk configuration, .ebextensions/config.py). Anyway, I describe in the next topic how you can run this project on your local machine.
 
-Logs for monitoring:
-
-<img src="images/logs.png">
-
 Web app home page:
 
 <img src="images/web_app_1.png">
@@ -197,9 +195,4 @@ The dataset was collected from kaggle.
 
 Link: https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers?sort=votes
 
-# 11. Contact me
-Linkedin: https://www.linkedin.com/in/pedro-almeida-ds/
 
-Github: https://github.com/allmeidaapedro
-
-Gmail: pedrooalmeida.net@gmail.com
